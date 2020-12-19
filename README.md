@@ -5,6 +5,8 @@
 # What-a-Drag
 There was an accident. Now things are going terribly, terribly wrong...
 
+[Download](https://github.com/bennettgsewell/What-a-Drag/releases)
+
 Jam Site: Fitchburg State University
 
 Jam Year: 2015
