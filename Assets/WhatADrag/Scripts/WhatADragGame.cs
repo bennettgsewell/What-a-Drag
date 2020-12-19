@@ -3,13 +3,13 @@ using System.Collections;
 
 public class WhatADragGame : MonoBehaviour {
 	public static float playerDistanceFromCorpse(){
-		GameObject d = GameObject.FindGameObjectWithTag("theCorpse").transform.FindChild("Hips").gameObject;
+		GameObject d = GameObject.FindGameObjectWithTag("theCorpse").transform.Find("Hips").gameObject;
 		GameObject p = GameObject.FindGameObjectWithTag("Player");
 		
 		return Vector3.Distance(d.transform.position, p.transform.position);
 	}
 	public static GameObject getCorpseHips(){
-		return GameObject.FindGameObjectWithTag("theCorpse").transform.FindChild("Hips").gameObject;
+		return GameObject.FindGameObjectWithTag("theCorpse").transform.Find("Hips").gameObject;
 	}
 	public static GameObject getClosestOfficer(Vector3 v){
 		GameObject[] officers = GameObject.FindGameObjectsWithTag("Police");
@@ -24,7 +24,7 @@ public class WhatADragGame : MonoBehaviour {
 	}
 	
 	public static float getCurrentDistanceFromCorpse(Vector3 v){
-		GameObject d = GameObject.FindGameObjectWithTag("theCorpse").transform.FindChild("Hips").gameObject;
+		GameObject d = GameObject.FindGameObjectWithTag("theCorpse").transform.Find("Hips").gameObject;
 		
 		return Vector3.Distance(d.transform.position, v);
 	}

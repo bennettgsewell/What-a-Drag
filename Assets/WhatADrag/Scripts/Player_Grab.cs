@@ -29,7 +29,7 @@ public class Player_Grab : MonoBehaviour {
 	
 	void grab(GameObject g){
 		if(g!=null && g.tag == "draggable" && Vector3.Distance(g.transform.position, transform.position)<=minPickUpDistance) {
-			hands.connectedBody = g.rigidbody;
+			hands.connectedBody = g.GetComponent<Rigidbody>();
 		} else
 			hands.connectedBody = null;
 	}
