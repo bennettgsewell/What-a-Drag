@@ -1,3 +1,7 @@
+![Face](/face_1.png)
+
+![Killer and Body](/killer_and_body.png)
+
 # What-a-Drag
 There was an accident. Now things are going terribly, terribly wrong...
 
